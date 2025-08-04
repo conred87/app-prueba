@@ -1,25 +1,18 @@
-## AWS Amplify Angular.js Starter Template
+# Aplicación estática para AWS Amplify
 
-This repository provides a starter template for creating applications using Angular.js and AWS Amplify, emphasizing easy setup for authentication, API, and database capabilities.
+Este repositorio contiene una página web estática mínima preparada para desplegarse en [AWS Amplify](https://aws.amazon.com/amplify/).
 
-## Overview
+## Estructura
 
-This template equips you with a foundational Angular.js application integrated with AWS Amplify, streamlined for scalability and performance. It is ideal for developers looking to jumpstart their project with pre-configured AWS services like Cognito, AppSync, and DynamoDB.
+- `index.html`: página principal.
+- `amplify.yml`: archivo de configuración de construcción y despliegue para Amplify.
+- `package.json`: scripts de utilidad.
 
-## Features
+## Despliegue
 
-- **Authentication**: Setup with Amazon Cognito for secure user authentication.
-- **API**: Ready-to-use GraphQL endpoint with AWS AppSync.
-- **Database**: Real-time database powered by Amazon DynamoDB.
+1. Conecta este repositorio a un proyecto de AWS Amplify.
+2. Amplify ejecutará los comandos definidos en `amplify.yml` y publicará el contenido estático.
 
-## Deploying to AWS
+## Desarrollo local
 
-For detailed instructions on deploying your application, refer to the [deployment section](https://docs.amplify.aws/angular/start/quickstart/#deploy-a-fullstack-app-to-aws) of our documentation.
-
-## Security
-
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
-
-## License
-
-This library is licensed under the MIT-0 License. See the LICENSE file.
+No se requiere ningún build. Simplemente abre `index.html` en el navegador para ver la página.
